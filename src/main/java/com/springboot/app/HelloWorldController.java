@@ -18,7 +18,7 @@ public class HelloWorldController {
     // GET HTTP Method
     // http://localhost:8090/hello-world
 
-    @GetMapping("/hello-world")
+    @GetMapping("/hello")
     public String helloWorld() {
         return "Hello World!";
     }
